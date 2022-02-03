@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./header.scss";
 import axios from "axios";
 
-export default function header() {
+export default function Header() {
   const [apiData, setApiData] = React.useState([]);
   const api = axios.create({
     baseURL: "https://api.randomuser.me/",
@@ -12,7 +12,7 @@ export default function header() {
   });
   return (
     <div>
-      <h1 className="love"> I like to build things</h1>
+      <h1 className="love"> I like to build thin!!!gs</h1>
     </div>
   );
 }
